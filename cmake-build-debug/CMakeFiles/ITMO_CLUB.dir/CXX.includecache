@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/JetBrains/Projects/ITMO-CLUB/ExpandedText.h
+iostream
+-
+stdio.h
+-
+vector
+-
+
+C:/JetBrains/Projects/ITMO-CLUB/main.cpp
+iostream
+-
+ExpandedText.h
+C:/JetBrains/Projects/ITMO-CLUB/ExpandedText.h
+fstream
+-
+

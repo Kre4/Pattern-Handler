@@ -1,0 +1,4 @@
+"C:\JetBrains\CLion 2020.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\JetBrains\Projects\ITMO-CLUB
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/JetBrains/Projects/ITMO-CLUB/cmake-build-debug

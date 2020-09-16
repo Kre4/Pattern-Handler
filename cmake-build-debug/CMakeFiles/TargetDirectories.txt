@@ -1,0 +1,3 @@
+C:/JetBrains/Projects/ITMO-CLUB/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/JetBrains/Projects/ITMO-CLUB/cmake-build-debug/CMakeFiles/ITMO_CLUB.dir
+C:/JetBrains/Projects/ITMO-CLUB/cmake-build-debug/CMakeFiles/edit_cache.dir
