@@ -5,6 +5,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "C:/JetBrains/Projects/ITMO-CLUB/ExpandedText.cpp" "C:/JetBrains/Projects/ITMO-CLUB/cmake-build-debug/CMakeFiles/ITMO_CLUB.dir/ExpandedText.cpp.obj"
+  "C:/JetBrains/Projects/ITMO-CLUB/FunctionalParameters.cpp" "C:/JetBrains/Projects/ITMO-CLUB/cmake-build-debug/CMakeFiles/ITMO_CLUB.dir/FunctionalParameters.cpp.obj"
+  "C:/JetBrains/Projects/ITMO-CLUB/Log.cpp" "C:/JetBrains/Projects/ITMO-CLUB/cmake-build-debug/CMakeFiles/ITMO_CLUB.dir/Log.cpp.obj"
   "C:/JetBrains/Projects/ITMO-CLUB/main.cpp" "C:/JetBrains/Projects/ITMO-CLUB/cmake-build-debug/CMakeFiles/ITMO_CLUB.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

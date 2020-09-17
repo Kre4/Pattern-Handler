@@ -18,9 +18,9 @@ public:
     std::string pattern;
     std::vector<parameter> params;
 
-    bool fill_in(const char *path);
+    void fill_in(const char *path);
 
-    int insert_in_pattern();
+    void insert_in_pattern();
 
     void delete_empty_params();
 

@@ -3,4 +3,4 @@ project(ITMO_CLUB)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(ITMO_CLUB main.cpp ExpandedText.cpp ExpandedText.h)
+add_executable(ITMO_CLUB main.cpp ExpandedText.cpp ExpandedText.h Log.cpp Log.h FunctionalParameters.cpp FunctionalParameters.h)

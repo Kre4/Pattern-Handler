@@ -169,6 +169,60 @@ ExpandedText.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ITMO_CLUB.dir\build.make CMakeFiles/ITMO_CLUB.dir/ExpandedText.cpp.s
 .PHONY : ExpandedText.cpp.s
 
+FunctionalParameters.obj: FunctionalParameters.cpp.obj
+
+.PHONY : FunctionalParameters.obj
+
+# target to build an object file
+FunctionalParameters.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ITMO_CLUB.dir\build.make CMakeFiles/ITMO_CLUB.dir/FunctionalParameters.cpp.obj
+.PHONY : FunctionalParameters.cpp.obj
+
+FunctionalParameters.i: FunctionalParameters.cpp.i
+
+.PHONY : FunctionalParameters.i
+
+# target to preprocess a source file
+FunctionalParameters.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ITMO_CLUB.dir\build.make CMakeFiles/ITMO_CLUB.dir/FunctionalParameters.cpp.i
+.PHONY : FunctionalParameters.cpp.i
+
+FunctionalParameters.s: FunctionalParameters.cpp.s
+
+.PHONY : FunctionalParameters.s
+
+# target to generate assembly for a file
+FunctionalParameters.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ITMO_CLUB.dir\build.make CMakeFiles/ITMO_CLUB.dir/FunctionalParameters.cpp.s
+.PHONY : FunctionalParameters.cpp.s
+
+Log.obj: Log.cpp.obj
+
+.PHONY : Log.obj
+
+# target to build an object file
+Log.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ITMO_CLUB.dir\build.make CMakeFiles/ITMO_CLUB.dir/Log.cpp.obj
+.PHONY : Log.cpp.obj
+
+Log.i: Log.cpp.i
+
+.PHONY : Log.i
+
+# target to preprocess a source file
+Log.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ITMO_CLUB.dir\build.make CMakeFiles/ITMO_CLUB.dir/Log.cpp.i
+.PHONY : Log.cpp.i
+
+Log.s: Log.cpp.s
+
+.PHONY : Log.s
+
+# target to generate assembly for a file
+Log.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ITMO_CLUB.dir\build.make CMakeFiles/ITMO_CLUB.dir/Log.cpp.s
+.PHONY : Log.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -208,6 +262,12 @@ help:
 	@echo ... ExpandedText.obj
 	@echo ... ExpandedText.i
 	@echo ... ExpandedText.s
+	@echo ... FunctionalParameters.obj
+	@echo ... FunctionalParameters.i
+	@echo ... FunctionalParameters.s
+	@echo ... Log.obj
+	@echo ... Log.i
+	@echo ... Log.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

@@ -3,7 +3,16 @@
 
 CMakeFiles/ITMO_CLUB.dir/ExpandedText.cpp.obj: ../ExpandedText.cpp
 CMakeFiles/ITMO_CLUB.dir/ExpandedText.cpp.obj: ../ExpandedText.h
+CMakeFiles/ITMO_CLUB.dir/ExpandedText.cpp.obj: ../FunctionalParameters.h
+
+CMakeFiles/ITMO_CLUB.dir/FunctionalParameters.cpp.obj: ../ExpandedText.h
+CMakeFiles/ITMO_CLUB.dir/FunctionalParameters.cpp.obj: ../FunctionalParameters.cpp
+CMakeFiles/ITMO_CLUB.dir/FunctionalParameters.cpp.obj: ../FunctionalParameters.h
+
+CMakeFiles/ITMO_CLUB.dir/Log.cpp.obj: ../Log.cpp
+CMakeFiles/ITMO_CLUB.dir/Log.cpp.obj: ../Log.h
 
 CMakeFiles/ITMO_CLUB.dir/main.cpp.obj: ../ExpandedText.h
+CMakeFiles/ITMO_CLUB.dir/main.cpp.obj: ../Log.h
 CMakeFiles/ITMO_CLUB.dir/main.cpp.obj: ../main.cpp
 

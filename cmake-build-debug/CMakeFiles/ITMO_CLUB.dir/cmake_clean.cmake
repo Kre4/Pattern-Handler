@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ITMO_CLUB.dir/ExpandedText.cpp.obj"
+  "CMakeFiles/ITMO_CLUB.dir/FunctionalParameters.cpp.obj"
+  "CMakeFiles/ITMO_CLUB.dir/Log.cpp.obj"
   "CMakeFiles/ITMO_CLUB.dir/main.cpp.obj"
   "ITMO_CLUB.exe"
   "ITMO_CLUB.exe.manifest"

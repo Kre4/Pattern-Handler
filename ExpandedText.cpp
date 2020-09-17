@@ -2,6 +2,7 @@
 // Created by Денис on 14.09.2020.
 //
 #include "ExpandedText.h"
+#include "FunctionalParameters.h"
 #include <stdio.h>
 #include <vector>
 #include <string>
@@ -16,24 +17,22 @@ bool replace(std::string &str, const std::string &from, const std::string &to) {
     return true;
 }
 
-bool ExpandedText::fill_in(const char *path) {
+void ExpandedText::fill_in(const char *path) {
 
     char tmp[1000];
     FILE *fp;
     fp = fopen(path, "r");
-    if (fp != NULL) {
+
         while (!feof(fp)) {
             fgets(tmp, 1000, fp);
             pattern += std::string(tmp);
         }
-        return true;
-    } else return false;
+
 }
 
 void ExpandedText::find_current_date() {
-    time_t seconds = time(NULL);
-    tm *timeinfo = localtime(&seconds);
-    replace(pattern, "{current_date}", asctime(timeinfo));
+    FunctionalParameters f;
+    replace(pattern, "{current_date}", f.current_date());
 }
 
 bool ExpandedText::json_parser(const char *path) {
@@ -86,21 +85,25 @@ bool ExpandedText::json_parser(const char *path) {
     return false;
 }
 
-int ExpandedText::insert_in_pattern() {
+void ExpandedText::insert_in_pattern() {
     for (int i = 0; i < params.size(); i++) {
         if (params[i].key == "current_date") {
-            std::cout << "Fatal error; Current_date in JSON";
-            return -1;
+
+            throw std::exception();
         }
         if (!replace(pattern, "{" + params[i].key + "}", params[i].value))
             replace(pattern, "{*" + params[i].key + "}", params[i].value);
     }
-    return 1;
 }
 
 void ExpandedText::delete_empty_params() {
+    int abc =pattern.find("*");
+    if (abc>=0){
+        throw std::exception();
+    }
     int i1 = pattern.find("{"),
             i2 = pattern.find("}");
+
     while (i1 >= 0) {
 
         pattern.erase(i1, i2 - i1 + 1);
