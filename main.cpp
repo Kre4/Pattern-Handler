@@ -3,12 +3,13 @@
 #include <fstream>
 #include "Log.h"
 
-int main() {
+int main(int argc, char* argv[]) {
     ExpandedText Text;
     Log Log;
     char *path = new char[1000];
     std::cout << "Enter path to pattern txt file:\n";
-    std::cin >> path;
+    //std::cin >> path;
+    path = argv[1];
     try {
         Text.fill_in(path);
 
@@ -20,8 +21,8 @@ int main() {
     Log.TxtOk();
 
     std::cout << "Enter path to JSON with params file:\n";
-    std::cin >> path;
-
+    //std::cin >> path;
+    path = argv[2];
     try {
         Text.json_parser(path);
     } catch (std::exception) {
@@ -55,7 +56,8 @@ int main() {
 
     std::cout << "Print -f if you want the result in txt file or -c for the result in console\n";
     std::string flag;
-    std::cin >> flag;
+    //std::cin >> flag;
+    flag = argv[3];
     if (flag == "-f") {
         std::cout << "\nEnter path:\n";
         std::cin >> path;
