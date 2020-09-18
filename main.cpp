@@ -6,7 +6,6 @@
 
 
 
-
 int main(int argc, char* argv[]) {
     ExpandedText Text;
     Log Log;
