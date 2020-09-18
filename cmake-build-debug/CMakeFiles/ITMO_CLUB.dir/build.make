@@ -89,64 +89,19 @@ CMakeFiles/ITMO_CLUB.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ITMO_CLUB.dir/main.cpp.s"
 	C:\MINGW\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\JetBrains\Projects\ITMO-CLUB\main.cpp -o CMakeFiles\ITMO_CLUB.dir\main.cpp.s
 
-CMakeFiles/ITMO_CLUB.dir/ExpandedText.cpp.obj: CMakeFiles/ITMO_CLUB.dir/flags.make
-CMakeFiles/ITMO_CLUB.dir/ExpandedText.cpp.obj: ../ExpandedText.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\JetBrains\Projects\ITMO-CLUB\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ITMO_CLUB.dir/ExpandedText.cpp.obj"
-	C:\MINGW\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ITMO_CLUB.dir\ExpandedText.cpp.obj -c C:\JetBrains\Projects\ITMO-CLUB\ExpandedText.cpp
-
-CMakeFiles/ITMO_CLUB.dir/ExpandedText.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ITMO_CLUB.dir/ExpandedText.cpp.i"
-	C:\MINGW\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\JetBrains\Projects\ITMO-CLUB\ExpandedText.cpp > CMakeFiles\ITMO_CLUB.dir\ExpandedText.cpp.i
-
-CMakeFiles/ITMO_CLUB.dir/ExpandedText.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ITMO_CLUB.dir/ExpandedText.cpp.s"
-	C:\MINGW\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\JetBrains\Projects\ITMO-CLUB\ExpandedText.cpp -o CMakeFiles\ITMO_CLUB.dir\ExpandedText.cpp.s
-
-CMakeFiles/ITMO_CLUB.dir/Log.cpp.obj: CMakeFiles/ITMO_CLUB.dir/flags.make
-CMakeFiles/ITMO_CLUB.dir/Log.cpp.obj: ../Log.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\JetBrains\Projects\ITMO-CLUB\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ITMO_CLUB.dir/Log.cpp.obj"
-	C:\MINGW\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ITMO_CLUB.dir\Log.cpp.obj -c C:\JetBrains\Projects\ITMO-CLUB\Log.cpp
-
-CMakeFiles/ITMO_CLUB.dir/Log.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ITMO_CLUB.dir/Log.cpp.i"
-	C:\MINGW\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\JetBrains\Projects\ITMO-CLUB\Log.cpp > CMakeFiles\ITMO_CLUB.dir\Log.cpp.i
-
-CMakeFiles/ITMO_CLUB.dir/Log.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ITMO_CLUB.dir/Log.cpp.s"
-	C:\MINGW\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\JetBrains\Projects\ITMO-CLUB\Log.cpp -o CMakeFiles\ITMO_CLUB.dir\Log.cpp.s
-
-CMakeFiles/ITMO_CLUB.dir/FunctionalParameters.cpp.obj: CMakeFiles/ITMO_CLUB.dir/flags.make
-CMakeFiles/ITMO_CLUB.dir/FunctionalParameters.cpp.obj: ../FunctionalParameters.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\JetBrains\Projects\ITMO-CLUB\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ITMO_CLUB.dir/FunctionalParameters.cpp.obj"
-	C:\MINGW\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ITMO_CLUB.dir\FunctionalParameters.cpp.obj -c C:\JetBrains\Projects\ITMO-CLUB\FunctionalParameters.cpp
-
-CMakeFiles/ITMO_CLUB.dir/FunctionalParameters.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ITMO_CLUB.dir/FunctionalParameters.cpp.i"
-	C:\MINGW\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\JetBrains\Projects\ITMO-CLUB\FunctionalParameters.cpp > CMakeFiles\ITMO_CLUB.dir\FunctionalParameters.cpp.i
-
-CMakeFiles/ITMO_CLUB.dir/FunctionalParameters.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ITMO_CLUB.dir/FunctionalParameters.cpp.s"
-	C:\MINGW\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\JetBrains\Projects\ITMO-CLUB\FunctionalParameters.cpp -o CMakeFiles\ITMO_CLUB.dir\FunctionalParameters.cpp.s
-
 # Object files for target ITMO_CLUB
 ITMO_CLUB_OBJECTS = \
-"CMakeFiles/ITMO_CLUB.dir/main.cpp.obj" \
-"CMakeFiles/ITMO_CLUB.dir/ExpandedText.cpp.obj" \
-"CMakeFiles/ITMO_CLUB.dir/Log.cpp.obj" \
-"CMakeFiles/ITMO_CLUB.dir/FunctionalParameters.cpp.obj"
+"CMakeFiles/ITMO_CLUB.dir/main.cpp.obj"
 
 # External object files for target ITMO_CLUB
 ITMO_CLUB_EXTERNAL_OBJECTS =
 
 ITMO_CLUB.exe: CMakeFiles/ITMO_CLUB.dir/main.cpp.obj
-ITMO_CLUB.exe: CMakeFiles/ITMO_CLUB.dir/ExpandedText.cpp.obj
-ITMO_CLUB.exe: CMakeFiles/ITMO_CLUB.dir/Log.cpp.obj
-ITMO_CLUB.exe: CMakeFiles/ITMO_CLUB.dir/FunctionalParameters.cpp.obj
 ITMO_CLUB.exe: CMakeFiles/ITMO_CLUB.dir/build.make
 ITMO_CLUB.exe: CMakeFiles/ITMO_CLUB.dir/linklibs.rsp
 ITMO_CLUB.exe: CMakeFiles/ITMO_CLUB.dir/objects1.rsp
 ITMO_CLUB.exe: CMakeFiles/ITMO_CLUB.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\JetBrains\Projects\ITMO-CLUB\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable ITMO_CLUB.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\JetBrains\Projects\ITMO-CLUB\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ITMO_CLUB.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\ITMO_CLUB.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

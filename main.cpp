@@ -1,7 +1,11 @@
 #include <iostream>
+#include <string>
+#include <stdio.h>
+#include <time.h>
 #include "ExpandedText.h"
-#include <fstream>
-#include "Log.h"
+
+
+
 
 int main(int argc, char* argv[]) {
     ExpandedText Text;
@@ -60,12 +64,12 @@ int main(int argc, char* argv[]) {
     std::cout<<"\n";
     if (flag == "-f") {
         std::ofstream file("result.txt");
-        file << Text.pattern;
+        file << Text.get_pattern();
         file.close();
         std::cout << "\nCheck " << "result.txt" << " to get the result!\n";
 
     }else
-        std::cout<<Text.pattern<<"\n";
+        std::cout<<Text.get_pattern()<<"\n";
     fout<<"Task successfully completed!";
     std::cout<<"See LogFIle.txt for more info";
     return 0;

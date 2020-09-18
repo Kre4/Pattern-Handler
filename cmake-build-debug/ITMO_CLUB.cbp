@@ -80,19 +80,10 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/JetBrains/Projects/ITMO-CLUB/ExpandedText.cpp">
-			<Option target="ITMO_CLUB"/>
-		</Unit>
 		<Unit filename="C:/JetBrains/Projects/ITMO-CLUB/ExpandedText.h">
 			<Option target="ITMO_CLUB"/>
 		</Unit>
-		<Unit filename="C:/JetBrains/Projects/ITMO-CLUB/FunctionalParameters.cpp">
-			<Option target="ITMO_CLUB"/>
-		</Unit>
 		<Unit filename="C:/JetBrains/Projects/ITMO-CLUB/FunctionalParameters.h">
-			<Option target="ITMO_CLUB"/>
-		</Unit>
-		<Unit filename="C:/JetBrains/Projects/ITMO-CLUB/Log.cpp">
 			<Option target="ITMO_CLUB"/>
 		</Unit>
 		<Unit filename="C:/JetBrains/Projects/ITMO-CLUB/Log.h">

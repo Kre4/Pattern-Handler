@@ -7,26 +7,38 @@
 #IncludeRegexTransform: 
 
 C:/JetBrains/Projects/ITMO-CLUB/ExpandedText.h
+FunctionalParameters.h
+C:/JetBrains/Projects/ITMO-CLUB/FunctionalParameters.h
+Log.h
+C:/JetBrains/Projects/ITMO-CLUB/Log.h
+vector
+-
+fstream
+-
+
+C:/JetBrains/Projects/ITMO-CLUB/FunctionalParameters.h
 iostream
+-
+string
 -
 stdio.h
 -
-vector
+time.h
 -
+ExpandedText.h
+C:/JetBrains/Projects/ITMO-CLUB/ExpandedText.h
 
 C:/JetBrains/Projects/ITMO-CLUB/Log.h
-string
--
-iostream
--
 
 C:/JetBrains/Projects/ITMO-CLUB/main.cpp
 iostream
 -
+string
+-
+stdio.h
+-
+time.h
+-
 ExpandedText.h
 C:/JetBrains/Projects/ITMO-CLUB/ExpandedText.h
-fstream
--
-Log.h
-C:/JetBrains/Projects/ITMO-CLUB/Log.h
 

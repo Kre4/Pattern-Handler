@@ -2,9 +2,6 @@
 // Created by Денис on 17.09.2020.
 //
 
-#pragma once
-#include <string>
-#include <iostream>
 class Log{
 public:
     int FatalError() {
