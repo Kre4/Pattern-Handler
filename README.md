@@ -12,5 +12,5 @@ Text {parameter1} text {parameter2} text {*parameter3}
   "parameter3": "Goodbuy World"
 }
 ```
-+ ***result.txt***. Hope it's understanable for what is this file used )
++ ***result.txt***. Hope it's understanable for what this file is used )
 + ***LogGile.txt***. Here you can find the reason of uncorrectable work of the program.
