@@ -1,0 +1,5 @@
+keks {*name}
+fuf {kleo}
+luls {string}
+nice {*keks}
+date is: {current_date}

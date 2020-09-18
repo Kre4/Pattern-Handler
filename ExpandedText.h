@@ -26,6 +26,6 @@ public:
 
     void find_current_date();
 
-    bool json_parser(const char *path);
+    void json_parser(const char *path);
 
 };
